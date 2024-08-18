@@ -32,7 +32,7 @@ const ClientDashboard = () => {
     // Handle the delete action
     const handleDelete = async (clientId) => {
         try {
-            await axios.delete(`/api/users/${clientId}`);
+            await axios.delete(`https://photoboot360.vercel.app/api/users/${clientId}`);
             setClients(clients.filter(client => client._id !== clientId));
             
         } catch (error) {
