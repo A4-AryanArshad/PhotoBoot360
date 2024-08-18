@@ -43,7 +43,7 @@ function SignUp() {
         e.preventDefault();
     
         try {
-            const response = await axios.post('/api/users', formData);
+            const response = await axios.post('https://photoboot360.vercel.app/api/users', formData);
             console.log('Response Status:', response.status); // Debugging line
             if (response.status === 201) {
                 SuccessAlert('User details saved successfully!');
