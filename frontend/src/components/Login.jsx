@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Hnav from './Hnav';
 import './Login.css'; 
-axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://photoboot360.vercel.app/';
 
 const Login = () => {
     const storedUser = JSON.parse(localStorage.getItem('user'));
@@ -31,7 +31,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('/api/users/login', formData);
+            const response = await axios.post('https://photoboot360.vercel.app/api/users/login', formData);
             console.log('Login successful:', response.data);
 
             // If login is successful, navigate to the ClientDashboard
