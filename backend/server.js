@@ -11,7 +11,13 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
-
+app.use(cors(
+    {
+        origin:["https://deploy-mern-1whq.vercel.app"],
+        methods:["POST","GET"],
+        credentials:true
+    }
+    ));
 
 mongoose.connect('mongodb+srv://abc:1234@atlascluster.88ax3.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster', {
     useNewUrlParser: true,
