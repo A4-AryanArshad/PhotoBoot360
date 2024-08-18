@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(cors(
     {
-        origin:["https://photoboot360frontend.vercel.app/"],
+        origin:["https://photoboot360frontend.vercel.app"],
         methods:["POST","GET"],
         credentials:true
     }
