@@ -19,13 +19,13 @@ const Hnav = () => {
         <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
             <ul>
                 <li className="nav-item">
-                    <a href="/services" className="nav-link" onClick={closeMenu}>Packages</a>
+                    <a href="https://photoboot360frontend.vercel.app/services" className="nav-link" onClick={closeMenu}>Packages</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/signup" className="nav-link" onClick={closeMenu}>Get Started</a>
+                    <a href="https://photoboot360frontend.vercel.app/signup" className="nav-link" onClick={closeMenu}>Get Started</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/login" className="nav-link" onClick={closeMenu}>Admin</a>
+                    <a href="https://photoboot360frontend.vercel.app/login" className="nav-link" onClick={closeMenu}>Admin</a>
                 </li>
             </ul>
         </div>
