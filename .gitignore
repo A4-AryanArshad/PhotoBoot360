@@ -32,3 +32,4 @@ frontend/dist-ssr
 
 # Backend directories and files
 backend/node_modules
+config.bat
