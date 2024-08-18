@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Hnav from './Hnav';
 import './Login.css'; 
-axios.defaults.baseURL = 'https://photoboot360.vercel.app/';
+
 
 const Login = () => {
     const storedUser = JSON.parse(localStorage.getItem('user'));
