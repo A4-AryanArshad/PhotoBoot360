@@ -19,7 +19,7 @@ const ClientDashboard = () => {
     useEffect(() => {
         const fetchClients = async () => {
             try {
-                const response = await axios.get('/api/users');
+                const response = await axios.get('https://photoboot360.vercel.app/api/users');
                 setClients(response.data);
             } catch (error) {
                 console.error('Error fetching clients data:', error);
