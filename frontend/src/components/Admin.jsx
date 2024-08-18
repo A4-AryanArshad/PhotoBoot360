@@ -9,14 +9,14 @@ const Admin = () => {
 
     useEffect(() => {
         // Fetch all admins on component mount
-        axios.get('http://localhost:8080/api/admins')
+        axios.get('https://photoboot360.vercel.app/api/admins')
             .then(response => setAdmins(response.data))
             .catch(error => console.error('Error fetching admins:', error));
     }, []);
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`http://localhost:8080/api/admins/${id}`);
+            await axios.delete(`https://photoboot360.vercel.app/api/admins/${id}`);
             setAdmins(admins.filter(admin => admin._id !== id));
         } catch (error) {
             console.error('Error deleting admin:', error);
@@ -25,7 +25,7 @@ const Admin = () => {
 
     const handleAddAdmin = async () => {
         try {
-            const response = await axios.post('http://localhost:8080/api/admins', newAdmin);
+            const response = await axios.post('https://photoboot360.vercel.app/api/admins', newAdmin);
             setAdmins([...admins, response.data]);
             setNewAdmin({ name: '', email: '' });
         } catch (error) {
