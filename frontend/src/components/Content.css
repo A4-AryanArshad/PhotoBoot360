@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+    #you5{
+        text-align: center;
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+#you6{
+    text-align: center;
+}
+}

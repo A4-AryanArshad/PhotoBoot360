@@ -1,0 +1,157 @@
+
+
+#flexer1{
+    background-image: url(img/logo/logo.svg);
+}
+
+#hire{
+    color: white;
+}
+#hire1 h2{
+    font-size: 40px;
+   
+    font-family: "Founders Grotesk X Condensed";
+    font-weight: bold;
+}
+#options{
+    display: flex;
+  flex-direction: column;
+  font-family: inherit;
+}
+#options p{
+    padding: 6px;
+    
+}
+#flexd{
+ 
+    padding-top: 24px;
+    font-family: inherit;
+    display: flex;
+
+   
+}
+#flexd h3{
+    font-family: inherit;
+    padding-left: 40px;
+}
+#hire1{
+    font-family: inherit;
+    background-color: #ceea67;
+    color: black;
+    border: 2px solid #ceea67;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 90px;
+    border-radius: 34px;
+}
+#hire{
+    display: flex;
+    justify-content: space-around;
+}
+#pricer{
+    padding-top: 53px;
+}
+#naviour{
+    padding-top: 50px;
+}
+#ik{
+    display: flex;
+    justify-content: right;
+}
+#ik img{
+    height: 100px;
+   
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+
+@media only screen and (max-width: 1268px) {
+#hire{
+    flex-direction: column;
+    margin: auto;
+
+    
+}
+#hire1{
+   width: 500px;
+   margin: 20px;
+}
+#hireo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ert{
+    display: flex;
+    flex-direction: column;
+}
+.er2{
+    text-align: center;
+}
+.we p{
+    text-align: center;
+}
+}
+
+
+@media only screen and (max-width: 578px) {
+#you2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#you3{
+    text-align: center;
+
+}
+#hire1{
+    width: 400px;
+}
+#you8{
+    font-size: 10px;
+}
+
+}
+
+@media only screen and (max-width: 578px) {
+
+    #hire1{
+        width: 400px;
+    }
+    .ft2 h1{
+    
+        font-size: 80px;
+       
+    }
+    
+    }
+    @media only screen and (max-width: 492px) {
+
+        #hire1{
+            width: 350px;
+        }
+        .ft2 h1{
+        
+            font-size: 60px;
+           
+        }
+        
+        }
+
+
+        @media only screen and (max-width: 1449px) {
+#rt22{
+    
+    padding: 50px;
+    
+}
+
+
+        }

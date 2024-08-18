@@ -1,0 +1,17 @@
+/* VideoSlider.css */
+.video-slider-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  
+  .video-slide {
+    text-align: center;
+  }
+  
+  .video-slide video {
+    width: 100%;
+    max-height: 500px;
+    border: 2px solid #ccc;
+  }
+  

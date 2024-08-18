@@ -1,0 +1,18 @@
+#in1{
+    width:300px
+}
+#jk1{
+    margin-top: -100px;
+}
+
+@media only screen and (max-width: 1287px) {
+    #in1{
+        width:200px
+    }
+    #jk1{
+        margin-top: +100px;
+    }
+#lol1{
+    font-size: 30px;
+}
+}

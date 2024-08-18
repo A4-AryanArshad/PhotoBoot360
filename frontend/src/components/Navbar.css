@@ -1,0 +1,54 @@
+@media only screen and (max-width: 768px) {
+
+#yoo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.links{
+  margin-right: 30px;
+}
+.ret{
+    display: none;
+    background-color: red !important;
+    color: red;
+}
+.ert{
+    
+margin: auto;
+}
+.e1{
+    text-align: center;
+
+}
+
+.rt3 h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 70px;
+
+
+}
+.btn32{
+  padding-top: 15px;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 566px) {
+
+
+  
+  .btn32{
+    width: 120px;
+    padding-top: 15px;
+    margin-bottom: 8px;
+
+  }
+  }
